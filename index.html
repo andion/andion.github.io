@@ -1,13 +1,25 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Lucas Andion
 ---
+<div class="eight columns offset-by-four">
+  
+  <div class="two columns offset-by-two">
+    <img src="/images/avatar.png" />
+  </div>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div class="eight columns">
+    <h1> I'm Lucas Andión </h1>
+    <h2> but you can call me andion </h2>  
+    <div id="home">
+      {% if site.posts %}
+      <h3>If I write something it will be here</h3>
+      <ul class="posts">
+        {% for post in site.posts %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
 </div>

@@ -2,24 +2,38 @@
 layout: default
 title: Lucas Andion
 ---
-<div class="eight columns offset-by-four">
-  
-  <div class="two columns offset-by-two">
-    <img src="/images/avatar.png" />
+<script src="//use.edgefonts.net/amatic-sc.js"></script>
+<script src="//use.edgefonts.net/amatic-sc;ubuntu-mono:n4.js"></script>
+
+
+<div id="presentation" class="ten columns offset-by-three">
+  <img class="add-bottom" src="/images/avatar.png"/>
+  <div class="add-bottom">
+    <h1>I'm Lucas Andión</h1>
+    <h2>
+      <span class="terminal"> 
+        ❯<strong>_</strong> but you can call me andion
+      </span>
+    </h2>
   </div>
 
-  <div class="eight columns">
-    <h1> I'm Lucas Andión </h1>
-    <h2> but you can call me andion </h2>  
-    <div id="home">
-      {% if site.posts %}
-      <h3>If I write something it will be here</h3>
-      <ul class="posts">
-        {% for post in site.posts %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-    </div>
+  <div id="bio">
+    <ul>
+      <li><a href="http://github.com/andion">github</a></li>
+      <li><a href="http://twitter.com/bugyou">@bugyou</a></li>
+      <li><a href="http://aquiyenlima.tumblr.com">#aquiyenlima</a></li>
+    </ul>    
   </div>
-</div>
+</div> 
+<!--
+  <div id="home" class="eight columns offset-by-three">
+    {% if site.posts %}
+    <h3>Things I wrote</h3>
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  -->

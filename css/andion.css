@@ -1,3 +1,50 @@
-body {
-  margin-top: 25px;
+body{
+  margin-top:25px;
+}
+
+#presentation, #bio{
+  text-align: center;
+}
+
+#presentation img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#presentation h1{
+  font-family: amatic-sc, sans-serif;
+  font-size: 70px;
+}
+
+#presentation h2 .terminal{
+  font-family: 'Lucida Console', Monaco, monospace;
+  font-size:20px;
+}
+
+#presentation h2 .terminal{
+  display:block;
+  padding:5px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 10px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.1), 0 -1px 0 rgba(0,0,0,.5);  
+  background-color: #333;
+  color:#EEE;  
+}
+
+#presentation h2 strong{
+  color:#EEE;
+}
+
+img {
+  max-width: 100%;
+}
+
+#bio {
+  font-size:22px;
+  font-weight: 600;
+}
+
+#bio li {
+  display: inline-table;
+  margin-left:15px;
 }

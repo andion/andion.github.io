@@ -76,7 +76,7 @@ html{
 
 /* MEDIA QUERIES */
 
-@media (max-width: 350px) {
+@media (max-width: 385px) {
 
   .wrapper .tooltip {
     display:none !important;
@@ -84,8 +84,8 @@ html{
 
   #presentation{
     text-align: center !important;
-    width: 300px;
-    height: 400px;
+    width: 320px;
+    height: 450px;
     font-size:12px;    
   }
 
@@ -111,8 +111,9 @@ html{
 
   #presentation img{
     float:none;
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 200px;
+    max-width: 200px;
+    margin-bottom:10px;
   } 
 }
 

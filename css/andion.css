@@ -63,7 +63,7 @@ html{
 
 @media (max-width: 490px) {
   #presentation{
-    font-size:10px;   
+    font-size:10px;
     width: 370px;
     height: 140px;
   }
@@ -71,7 +71,7 @@ html{
   #presentation img{
     max-height: 110px;
     max-width: 110px;
-  }   
+  }
 }
 
 /* MEDIA QUERIES */
@@ -86,7 +86,7 @@ html{
     text-align: center !important;
     width: 320px;
     height: 450px;
-    font-size:12px;    
+    font-size:12px;
   }
 
   #presentation h1{
@@ -97,7 +97,7 @@ html{
     margin:0;
     padding:0;
     font-size:2em;
-    font-weight: bold; 
+    font-weight: bold;
   }
 
   .symbol{
@@ -114,7 +114,7 @@ html{
     max-height: 200px;
     max-width: 200px;
     margin-bottom:10px;
-  } 
+  }
 }
 
 /* TOOLTIPS */
@@ -137,10 +137,10 @@ html{
   padding: 10px;
   pointer-events: none;
   position: absolute;
-  
-  -webkit-border-radius: 5px; 
-     -moz-border-radius: 5px; 
-          border-radius: 5px;   
+
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
 
   width: 85%;
   -webkit-transform: translateY(10px);
@@ -169,7 +169,7 @@ html{
   left: 0;
   position: absolute;
   width: 100%;
-}  
+}
 
 /* CSS Triangles - see Trevor's post */
 .wrapper .tooltip:after {
@@ -184,7 +184,7 @@ html{
   position: absolute;
   width: 0;
 }
-  
+
 .wrapper:hover .tooltip {
   opacity: 1;
   pointer-events: auto;

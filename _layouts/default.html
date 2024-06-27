@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
-  <script src="//use.edgefonts.net/amatic-sc.js"></script>
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Basic Page Needs -->
-  <meta charset="utf-8">
-  <title> {{ page.title }} </title>
-  <meta name="description" content="Galician software developer. Mad traveller, bike lover and beer enthusiast. I speak spanish, galician, english and ruby. This is my personal webpage.">
-  <meta name="author" content="{{ site.name }}">
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <meta
+      name="description"
+      content="Galician software developer. Mad traveller, bike lover and beer enthusiast. I speak spanish, galician, english and ruby. This is my personal webpage."
+    />
+    <meta name="author" content="{{ site.name }}" />
 
-  <!-- Mobile Specific Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Mobile Specific Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/andion.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/andion.css" />
 
-  <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-  <!-- Favicons  -->
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <!-- Favicons  -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/apple-touch-icon-114x114.png"
+    />
 
-  {% include ga.html %}
-
-</head>
-<body>
-  <div class="container">
-    {{ content }}
-  </div>
+    {% include ga.html %}
+  </head>
+  <body>
+    <div class="container">{{ content }}</div>
   </body>
 </html>

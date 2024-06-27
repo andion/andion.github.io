@@ -1,74 +1,74 @@
-html{
+html {
   background-color: fefefe;
 }
 
-#presentation{
+#presentation {
   text-align: left;
   position: absolute;
   margin: auto;
-  color:#333;
+  color: #333;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   width: 600px;
   height: 250px;
-  font-size:16px;
+  font-size: 16px;
 }
 
-#presentation img{
-  float:left;
+#presentation img {
+  float: left;
   margin-right: 1.5em;
 }
 
-#presentation h1{
-  font-family: amatic-sc, sans-serif;
+#presentation h1 {
+  font-family: "Platypi", serif;
   font-weight: normal;
-  font-size: 6em;
-  margin:0.2em 0 -0.1em 0;
+  font-size: 3.6em;
+  margin: 0.45em 0 0.45em 0;
 }
 
-#presentation #links{
-  color:#aaa;
-  font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size:1.5em;
+#presentation #links {
+  color: #aaa;
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
   list-style-type: none;
-  margin:0;
+  margin: 0;
 }
 
-#presentation #links li{
+#presentation #links li {
   display: inline-table;
-  margin-right:0.5em;
+  margin-right: 0.5em;
 }
 
-#presentation #links li a{
+#presentation #links li a {
   text-decoration: none;
   color: #666;
 }
 
-#presentation #links li a:hover{
-  color:#2c466d;
+#presentation #links li a:hover {
+  color: #2c466d;
 }
 
-#presentation #links li:hover{
-  color:#395d93;
+#presentation #links li:hover {
+  color: #395d93;
 }
 
-.symbol{
+.symbol {
   font-weight: bolder;
-  font-family:console, monospace;
+  font-family: console, monospace;
   font-size: 1.2em;
-  margin-right:0.1em;
+  margin-right: 0.1em;
 }
 
 @media (max-width: 490px) {
-  #presentation{
-    font-size:10px;
+  #presentation {
+    font-size: 10px;
     width: 370px;
     height: 140px;
   }
 
-  #presentation img{
+  #presentation img {
     max-height: 110px;
     max-width: 110px;
   }
@@ -77,43 +77,42 @@ html{
 /* MEDIA QUERIES */
 
 @media (max-width: 385px) {
-
   .wrapper .tooltip {
-    display:none !important;
+    display: none !important;
   }
 
-  #presentation{
+  #presentation {
     text-align: center !important;
     width: 320px;
     height: 450px;
-    font-size:12px;
+    font-size: 12px;
   }
 
-  #presentation h1{
-    margin:0;
+  #presentation h1 {
+    margin: 0;
   }
 
   #presentation #links {
-    margin:0;
-    padding:0;
-    font-size:2em;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
     font-weight: bold;
   }
 
-  .symbol{
-    font-size:1em;
+  .symbol {
+    font-size: 1em;
   }
 
-  #presentation #links li{
+  #presentation #links li {
     display: block;
-    margin-top:1em;
+    margin-top: 1em;
   }
 
-  #presentation img{
-    float:none;
+  #presentation img {
+    float: none;
     max-height: 200px;
     max-width: 200px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -126,7 +125,7 @@ html{
 }
 
 .wrapper .tooltip {
-  text-align:center;
+  text-align: center;
   background: #666;
   top: 100%;
   color: #fefefe;
@@ -139,25 +138,25 @@ html{
   position: absolute;
 
   -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 
   width: 85%;
   -webkit-transform: translateY(10px);
-     -moz-transform: translateY(10px);
-      -ms-transform: translateY(10px);
-       -o-transform: translateY(10px);
-          transform: translateY(10px);
-  -webkit-transition: all .25s ease-out;
-     -moz-transition: all .25s ease-out;
-      -ms-transition: all .25s ease-out;
-       -o-transition: all .25s ease-out;
-          transition: all .25s ease-out;
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  transform: translateY(10px);
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
   -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-     -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-      -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-       -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
 }
 
 /* This bridges the gap so you can mouse into the tooltip without it disappearing */
@@ -189,8 +188,8 @@ html{
   opacity: 1;
   pointer-events: auto;
   -webkit-transform: translateY(0px);
-     -moz-transform: translateY(0px);
-      -ms-transform: translateY(0px);
-       -o-transform: translateY(0px);
-          transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
 }
